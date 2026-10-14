@@ -6,8 +6,10 @@ sum.cpp — changed values	5 and -10  	          -5                             
 mpg.cpp — assigned values	312 miles; 16 gallons	19.5	                          19.5	        Match
 mpg.cpp — changed values	5 miles, 8 gallons  	0.625                          	0.625        	Match
 
-First, a number is assigned to integer1, then a number is assigned to integer2. The variable "total" is then declared. Next, the sum of integer1 and integer2 is assigned to total. Finally, total is printed. The calculation is stored to total before printing because this is considered good practice, for example in case one would want to use the variable's value again later.
+First, the number 50 is assigned to integer1, then the number 100 is assigned to integer2. The variable "total" is then declared. Next, the sum of integer1 and integer2 is assigned to total, that being 150. Finally, total is printed. The calculation is stored to total before printing because this is considered good practice, for example in case one would want to use the variable's value again later.
 
 First, a number is assigned to gallons, then a number is assigned to gallons. The variable "mpg" is then declared. The variables are of the float data type so that the quotient is also a float. If a C++ program performs division using two integer operands, the quotient is truncated at the decimal point. To show this, when the data type of the operands is float, the quotient is 19.5, but when it's int, the quotient is just 19 without the precision of the tenths place.
+
+After I restored the assigned values, I ran the final files.
 
 A source file is run in OnlineGDB by clicking "Upload File" on the top-left of the screen and selecting the desired .cpp file.
