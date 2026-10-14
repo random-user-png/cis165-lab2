@@ -2,8 +2,8 @@
 
 int main()
 {
-    float gallons = 8;
-    float miles = 5;
+    float gallons = 312;
+    float miles = 16;
     float mpg;
     mpg = miles / gallons;
     std::cout<<"Output: "<<mpg<<" miles per gallon";
